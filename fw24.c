@@ -1,3 +1,7 @@
+#include<stdio.h>
+
+void main()
+{
     int num, digit, rev = 0;
 
     printf("Enter a number: ");
@@ -10,3 +14,4 @@
     }
 
     printf("Reversed number: %d\n", rev);
+}

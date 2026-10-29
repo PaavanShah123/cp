@@ -11,6 +11,6 @@ void main()
             a[i]=a[i]-32;
         i++;
     }
-printf("The Lower case string is: %s", a);
+printf("The Upper case string is: %s", a);
 }
 

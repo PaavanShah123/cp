@@ -9,7 +9,12 @@ void swap(int a, int b) {
 }
 
 void main() {
-    int x = 10, y = 20;
+    int x, y;
+
+    printf("Enter first number (x): ");
+    scanf("%d", &x);
+    printf("Enter second number (y): ");
+    scanf("%d", &y);
 
     printf("Before swap:  x = %d, y = %d\n", x, y);
     swap(x, y);
